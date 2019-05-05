@@ -8,7 +8,7 @@ body {
   vertical-align: baseline;
   font-size: 100%;
   line-height: 120%;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Calibri", sans-serif;
 }
 
 /****** responsive with flex *********/
@@ -33,7 +33,7 @@ body {
 }
 
 .aside-1 {
-  background: #2c2c2c;
+  background: #00172d;
   color: #fff;
 }
 
@@ -56,7 +56,7 @@ body {
 
   .aside-1 {
     order: 1;
-    max-width: 350px;
+    max-width: 300px;
   }
 
   .main {
@@ -81,10 +81,7 @@ body {
 
 .sidebar {
   padding: 50px 30px;
-  background: linear-gradient(
-    rgba(25, 92, 136, 0.877),
-    rgba(255, 255, 255, 0.1)
-  );
+  background: linear-gradient( rgb(78, 78, 78), rgba(255, 255, 255, 0.1));
 }
 
 .sidebar a {
@@ -130,7 +127,7 @@ body {
 }
 
 .contactDetails .icon i {
-  font-size: 45px;
+  font-size: 35px;
 }
 
 .expertise {
@@ -176,7 +173,6 @@ body {
 .top {
   height: 150px;
   background: #e4e4e4;
-  margin: 50px 0;
   text-align: center;
   vertical-align: middle;
   display: table;
@@ -188,19 +184,17 @@ body {
 }
 
 .top .title {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 600;
   display: table-cell;
   vertical-align: middle;
   background: hsl(0, 0%, 80%);
-  line-height: normal;
 }
 
 .top .subtitle {
-  font-size: 15px;
+  font-size: 18px;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-style: italic;
 }
 
 .top .contact-information {
