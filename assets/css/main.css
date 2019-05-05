@@ -189,6 +189,7 @@ body {
   display: table-cell;
   vertical-align: middle;
   background: hsl(0, 0%, 80%);
+  font-family: "Century";
 }
 
 .top .subtitle {
