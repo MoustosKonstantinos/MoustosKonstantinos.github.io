@@ -56,7 +56,7 @@ body {
 
   .aside-1 {
     order: 1;
-    max-width: 300px;
+    max-width: 340px;
   }
 
   .main {
@@ -91,7 +91,7 @@ body {
 .sidebar .profile {
   text-align: center;
   text-align: justify;
-  padding: 30px 0;
+  padding: 40px 0;
 }
 
 .sidebar .profile h3 {
@@ -183,17 +183,14 @@ body {
   background-repeat: no-repeat;
 }
 
-.top .title {
-  font-size: 40px;
-  font-weight: 600;
-  display: table-cell;
-  vertical-align: middle;
-  background: hsl(0, 0%, 80%);
+.title {
+  font-size: 20px;
+  font-weight: 350;
   font-family: "Century";
 }
 
-.top .subtitle {
-  font-size: 18px;
+.subtitle {
+  font-size: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
